@@ -20,16 +20,16 @@ int main(){
     for(int i=0; i<10; i++){
     *randomNumber=generate_random_number();
     cout<<*randomNumber<<" ";
+
+        //I am adding some test comments
+        //If randomNumber is 7, print lucky number 7
+        if(*randomNumber==7){
+            cout<<"Lucky number 7"<<endl;
+        }
     }
 
     //Clean up pointers
     delete randomNumber;
-
-    //I am adding some test comments
-    //If randomNumber is 7, print lucky number 7
-    if(*randomNumber==7){
-        cout<<"Lucky number 7"<<endl;
-    }
 
     cout<<endl;
 
