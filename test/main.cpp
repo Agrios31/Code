@@ -24,7 +24,12 @@ int main(){
 
     //Clean up pointers
     delete randomNumber;
-    
+
+    //I am adding some test comments
+    //If randomNumber is 7, print lucky number 7
+    if(*randomNumber==7){
+        cout<<"Lucky number 7"<<endl;
+    }
 
     cout<<endl;
 
