@@ -19,7 +19,7 @@ int main(){
     //Generate Mulitple random numbers between 1 and 10
     for(int i=0; i<10; i++){
     *randomNumber=generate_random_number();
-    cout<<*randomNumber;
+    cout<<*randomNumber<<" ";
     }
 
     //Clean up pointers
@@ -30,13 +30,15 @@ int main(){
 
     //Print the numbers 1-10
     for(int i=1; i<=10; i++){
-        cout<<i<<"";
+        cout<<i<<" ";
     }
+    cout<<endl;
 
     //Print the numbers 10-1
     for(int i=10; i>=1; i--){
-        cout<<i<<"";
+        cout<<i<<" ";
     }
+    cout<<endl;
 
     return 0;
 }
